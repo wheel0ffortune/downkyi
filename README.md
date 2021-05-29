@@ -9,12 +9,12 @@
 - [x] 支持4K下载
 - [x] 支持视频、番剧、剧集、电影、课程下载
 - [x] **支持用户收藏夹、订阅、稍后再看、历史记录下载**
-- [x] **支持港澳台番剧下载，解除地区限制**
+- [x] ~~**支持港澳台番剧下载，解除地区限制**~~
 - [x] 支持封面下载
 - [x] 支持断点续传
 - [x] 支持Aria2c
 - [x] 支持下载历史记录保存
-- [x] 支持av、bv互转
+- [x] 支持av、BV互转
 - [x] 支持弹幕发送者查询
 - [x] 支持音视频分离
 - [x] 支持去水印
@@ -38,6 +38,8 @@
 
 哔哩下载姬支持多种复制于浏览器或APP的网址格式，在程序主页输入并按回车键即可开始检索。
 
+- 检索只获取视频的基本信息，视频下载链接需点击解析。（v1.3.5）
+- 监听剪贴板，复制即可开始检索。（v1.3.6）
 - 视频详情页中，先选中视频再下载，如果该视频已经在下载队列或者已下载列表中，则不会被添加。
 - 用户收藏夹、订阅、稍后再看、历史记录中，点击下载后，会默认下载选中视频的所有分P。
 
@@ -50,7 +52,7 @@
 - [x] 番剧（电影、电视剧）md号：https://www.bilibili.com/bangumi/media/md28228367
 - [x] 课程ss号：https://www.bilibili.com/cheese/play/ss205
 - [x] 课程ep号：https://www.bilibili.com/cheese/play/ep3489
-- [ ] 用户空间：uid928123，https://space.bilibili.com/928123
+- [x] 用户空间：uid928123，UID:928123，https://space.bilibili.com/928123
 
 `注：因为番剧和课程都有ss号和ep号，因此暂时不能直接输入ss号和ep号。`
 
@@ -58,15 +60,18 @@
 
 [全部更新日志](https://github.com/FlySelfLog/downkyi/blob/main/CHANGELOG.md)
 
-* `2021/01/05` v1.3.2 beta
-    1. [修复] 向Aria添加下载时参数错误问题。
-    2. [修复] 分P标题为空时，标题为总标题+数字。
-    3. [优化] 更新视频分区。
-    4. [优化] 文件夹、订阅、稍后再看的健壮性。
+* `2021/04/27` v1.3.8
+    1. [修复] FLV视频只有1个分段时下载失败的问题。
+    2. [修复] UP主视频页面闪退的问题。
+    3. [修复] 电视剧图标丢失的问题。
+    4. [新增] UP主视频页面下载全部视频的按钮。
 
 ## 下载
 
-https://github.com/FlySelfLog/downkyi/releases
+- [哔哩下载姬最新版](https://github.com/FlySelfLog/downkyi/releases/download/v1.3.7/DownKyi-1.3.7.zip)
+
+- [下载页面](https://github.com/FlySelfLog/downkyi/releases)
+
 
 ## 赞助
 
